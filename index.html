@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>shop</title>
+        <link rel="icon" type="image/x-icon" href="image/store.png">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+ <!-- Include Sidenav -->
+ <div id="sidenav-container"></div>
+
+ <!-- Include Header -->
+ <div id="header-container"></div>
+      <br>
+        
+
+      <div class="content">
+      <div style="display: flex; width: 100%; vertical-align: bottom;">
+      <div style="width: 50%;"><p style="font-size: 24px;"><b>Best Sellers</b></p></div>
+      <div style="width: 50%;"><p style="text-align: right;">view all</p></div>
+      </div>
+      <div class="scrollmenu">
+        <div class="product-card">
+          <img src="car.jpg" alt="car"> <br>
+          <a>Product1</a> <br>
+          <p>Price $12</p>
+        </div>
+        <div class="product-card">
+          <img src="car.jpg" alt="car"> <br>
+          <a>Product1</a> <br>
+          <p>Price $12</p>
+        </div>
+        <div class="product-card">
+          <img src="car.jpg" alt="car"> <br>
+          <a>Product1</a> <br>
+          <p>Price $12</p>
+        </div>
+        <div class="product-card">
+          <img src="car.jpg" alt="car"> <br>
+          <a>Product1</a> <br>
+          <p>Price $12</p>
+        </div>
+        <div class="product-card">
+          <img src="car.jpg" alt="car"> <br>
+          <a>Product1</a> <br>
+          <p>Price $12</p>
+        </div>
+      </div>
+      </div>
+
+      <div class="content">
+        <h1>New Products</h1>
+        <div class="scrollmenu">
+          <div class="product-card">
+            <img src="car.jpg" alt="car"> <br>
+            <a>Product1</a> <br>
+            <p>Price $12</p>
+          </div>
+          <div class="product-card">
+            <img src="car.jpg" alt="car"> <br>
+            <a>Product1</a> <br>
+            <p>Price $12</p>
+          </div>
+          <div class="product-card">
+            <img src="car.jpg" alt="car"> <br>
+            <a>Product1</a> <br>
+            <p>Price $12</p>
+          </div>
+          <div class="product-card">
+            <img src="car.jpg" alt="car"> <br>
+            <a>Product1</a> <br>
+            <p>Price $12</p>
+          </div>
+          <div class="product-card">
+            <img src="car.jpg" alt="car"> <br>
+            <a>Product1</a> <br>
+            <p>Price $12</p>
+          </div>
+        </div> 
+        </div>
+      
+        <script>
+          // Function to load HTML content into a container
+          function loadHTML(file, containerId) {
+              fetch(file)
+                  .then(response => response.text())
+                  .then(data => {
+                      document.getElementById(containerId).innerHTML = data;
+                  });
+          }
+  
+          // Load sidenav and header
+          loadHTML('sidenav.html', 'sidenav-container');
+          loadHTML('header.html', 'header-container');
+      </script>
+      <script src="myscripts.js"></script>
+    </body>
+</html>
