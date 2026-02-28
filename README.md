@@ -1,43 +1,85 @@
-# Shop 
+# Shop Website (Frontend Project)
 
-This is a simple **Shop / Inventory Management** project.  
-The project is not fully complete, but includes core structures and UI ideas for a shopping system.
+This is a simple **shop website** built using:
 
-Even though it's unfinished, this repository demonstrates:
-- Python class design
-- Basic product listing
-- Cart functionality
-- A simple text-based interface
+- HTML
+- CSS
+- JavaScript
 
----
-
-## 📌 Overview
-
-This project was created as a learning exercise for building Python applications that manage products and user interactions.
-
-You can explore the code, use it for reference, or build on it if you ever want to continue development.
+⚠️ This project is unfinished and will not be actively developed further.  
+It was created as a learning project to practice frontend development and UI design.
 
 ---
 
-## 📂 Features (Partial)
+## Overview
 
-- Product class and data structure
-- Simple display of products
-- Cart object
-- Adding items to cart
-- Total calculation (in progress)
-- Partial user interface
+The goal of this project was to build a basic online shop interface featuring:
 
-⚠️ **Note:** Not all features are implemented — for example:
-- Removing items from cart
-- Checkout workflow
-- Persistent data storage
+- Product cards
+- Add to cart functionality
+- Basic layout styling
+- Interactive elements using JavaScript
+
+It focuses on structure and frontend logic rather than backend/database integration.
 
 ---
 
-## 🚀 Getting Started
+## Features 
 
-1. **Clone the repository**
+- Responsive layout
+- Product display grid
+- Add-to-cart button logic
+- Basic cart tracking (local/session storage if implemented)
+- Clean UI design
 
+Not implemented:
+- Backend/database
+- Payment system
+- User authentication
+- Persistent cart storage
+- Full checkout flow
+
+---
+
+## Project Structure
+
+```
+Shop/
+├── index.html # Main page
+├── style.css # Styling
+├── script.js # JavaScript logic
+├── assets/ # Images/icons
+└── README.md
+```
+
+
+---
+
+## How to Run
+
+Since this is a static frontend project:
+
+1. Clone the repository
    ```bash
    git clone https://github.com/natchat-c/Shop.git
+   ```
+2. Open index.html in your browser.
+
+## Purpose
+
+This project was built to practice:
+- DOM manipulation
+- Layout design
+- JavaScript interaction
+- Basic e-commerce UI concepts
+
+## Status
+
+Development stopped
+Archived learning project
+
+Feel free to explore, fork, or expand on it.
+
+## License
+
+Open for educational use.
